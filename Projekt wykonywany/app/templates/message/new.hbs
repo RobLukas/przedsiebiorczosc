@@ -1,0 +1,7 @@
+<div class="new-msg-form">
+  {{input type="text" placeholder="Name" value=name class="name-input"}}
+  {{input type="text" placeholder="Message" value=body class="msg-input"}}
+  <span class="input-group-btn">
+    <button {{action 'addMessage'}} class="btn btn-default" type="button">Go!</button>
+  </span>
+</div>
